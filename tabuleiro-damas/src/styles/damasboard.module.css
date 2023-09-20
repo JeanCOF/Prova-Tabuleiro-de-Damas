@@ -1,0 +1,36 @@
+.board {
+    display: grid;
+    grid-template-columns: repeat(8, 50px);
+    grid-template-rows: repeat(8, 50px);
+    width: 400px;
+    height: 400px;
+    border: 2px solid #000;
+  }
+  
+  .square {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .white {
+    background-color: #fff;
+  }
+  
+  .black {
+    background-color: #000;
+  }
+  /* components/DamasBoard.module.css */
+.piece {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: 5px;
+  }
+  
+  .redPiece {
+    background-color: red;
+  }
+  
+  .blackPiece {
+    background-color: black;
+  }
